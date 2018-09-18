@@ -6,7 +6,52 @@ h1 {
     color: white;
     text-align: center;
 }
-
+.zad1{
+    color: white;
+    text-align: center;
+    background-color: tomato;
+    font-style: italic;
+}
+.zad2{
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-style: normal;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+.zad3{
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-style: normal;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+.zad4{
+    color: white;
+    text-align: center;
+    background-color: blue;
+    font-style: oblique;
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+}
+.zad5{
+    color: blueviolet;
+    text-align: center;
+    background-color: red;
+    font-style: oblique;
+    font-size: 45px;
+    font-family: "Arial";
+}
+.zad6{
+    color: rgb(37, 148, 199);
+    text-align: center;
+    background-color: rgb(209, 32, 130);
+    font-style: normal;
+    font-size: 35px;
+    font-family: "Impact";
+}
 p {
     font-family: verdana;
     font-size: 20px;
