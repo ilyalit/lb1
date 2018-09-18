@@ -66,3 +66,74 @@ p.two {
     border-style: double;
     border-width: 2;
 }
+/* unvisited link */
+a.one:link {
+    color: red;
+    text-decoration: underline;
+}
+
+/* visited link */
+a.one:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.one:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+/* selected link */
+a.one:active {
+    color: blue;
+    text-decoration: underline;
+}
+a.three:link, a.three:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.three:hover, a.three:active {
+    background-color: red;
+    text-align: center; 
+}
+
+a.four:link {
+    background-color: #f44336;
+    color: white;
+    padding: 20px 45px;
+    text-align: center; 
+    text-decoration: underline;
+    display: inline-block;
+    
+}
+a.four:visited {
+    background-color: #e7f436;
+    color: rgb(8, 8, 8);
+    padding: 20px 45px;
+    text-align: right; 
+    text-decoration: underline;
+    display: inline-block;
+}
+
+a.four:hover, a.four:active {
+    background-color: red;
+    text-decoration: underline;
+}
+
+a.fifth:link, a.fifth:visited {
+    background-color: #fcf8f8;
+    color: rgb(14, 1, 1);
+    padding: 14px 45px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.fifth:hover, a.fifth:active {
+    background-color: rgb(47, 30, 148);
+}
