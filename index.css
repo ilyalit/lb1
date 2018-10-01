@@ -137,3 +137,23 @@ a.fifth:link, a.fifth:visited {
 a.fifth:hover, a.fifth:active {
     background-color: rgb(47, 30, 148);
 }
+ul.sp1 {
+    list-style-type: upper-roman;
+    background: #3399ff;
+    padding: 40px;
+}
+ul.sp1 li {
+    background: #cce5ff;
+    margin: 20px;
+}
+
+ol.sp2 {
+    list-style: square inside url("lol.png");
+    background: #ff9999;
+    padding: 40px;
+    
+}
+ol.sp2 li {
+    background: #ffe5e5;
+    margin-left: 5px;
+}
