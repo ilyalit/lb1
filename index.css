@@ -182,7 +182,24 @@ img.img2 {
     box-shadow: 0 4px 8px 0 rgba(73, 56, 56, 0.2), 0 6px 50px 0 rgba(73, 56, 56, 0.2);
 }
 
-
+#one{
+    background-color: tomato;
+}
+#two{
+    background-color: #533a0c;
+}
+#three{
+    background-color: rgb(146, 33, 103);
+}
+#four{
+    background-color: rgb(15, 139, 25);
+}
+#five{
+    background-color: rgb(238, 18, 18);
+}
+.shapka{
+    background-color: rgb(220, 235, 15);
+}
 
 
 
