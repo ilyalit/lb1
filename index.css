@@ -148,7 +148,7 @@ ul.sp1 li {
 }
 
 ol.sp2 {
-    list-style: square inside url("lol.png");
+    list-style: square inside url("image/lol.png");
     background: #ff9999;
     padding: 40px;
     
@@ -183,7 +183,8 @@ img.img2 {
 }
 
 #one{
-    background-color: tomato;
+    background-color: t
+    omato;
 }
 #two{
     background-color: #533a0c;
