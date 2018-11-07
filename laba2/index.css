@@ -1,0 +1,164 @@
+body {
+    background-color: silver;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poor Story', cursive;
+}
+
+p{
+    color: black !important;
+}
+
+h1{
+    /*font-family: 'Calibri';*/
+    padding-top:40px;
+    font-size: 50px;
+    text-align: center;
+    color: Black;
+}
+
+/*navbar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    outline: none; 
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+li.butleft{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+@media screen and (max-width: 600px){
+    .all_rules, .a2ll_rules{
+        
+    }
+}
+
+     
+
+    /* Screens */
+
+    .all_screens{                    
+        flex-direction: column;
+        margin: auto;
+        background: #111;
+    }
+    .all_screens .photo img{
+        width: 100%;
+    }
+
+    /* About */ 
+    .about{
+       
+        flex-direction: column;
+        margin: auto;
+    }
+
+    /* Rules */ 
+    .all_rules, .a2ll_rules{                    
+        flex-direction: column;
+        margin: auto;
+    }
+
+}
+
+
+
+ /* Screens */
+ 
+.all_screens{
+    width: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.all_screens .photo{
+    margin: auto; 
+}
+
+
+
+
+/* Rules */ 
+ 
+.all_rules{
+    overflow: hidden;
+    display: flex;
+}
+
+.a2ll_rules {
+    width: 100%;
+    margin: auto;
+    display: center;
+}
+
+.img1_rules{
+    margin: 0% 10% 0% 10%; 
+    /*padding: */
+}
+.text1_rules{
+    margin: auto;
+    display: center;
+    
+
+}
+
+p{
+    /*font-family: 'Calibri';*/
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+
+/* About */ 
+
+.info  {
+    /*font-family: 'Calibri';*/
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+.about{
+    width: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.about .me, .info{
+    margin: 1% 5% 5% 10%; 
+}
+
+/* Links */ 
+/*.links{
+    margin: 0% 0% -10% 0%;
+    display: center;
+    background-color: black;
+}*/
+footer{
+    background-color: white;
+    margin: 0% 0% -10% 0%;
+}
