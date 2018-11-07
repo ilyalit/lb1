@@ -10,7 +10,7 @@ p{
 }
 
 h1{
-    /*font-family: 'Calibri';*/
+    
     padding-top:40px;
     font-size: 50px;
     text-align: center;
@@ -49,11 +49,7 @@ li a {
 li a:hover {
     background-color: #111;
 }
-@media screen and (max-width: 600px){
-    .all_rules, .a2ll_rules{
-        
-    }
-}
+
 
      
 
@@ -81,7 +77,7 @@ li a:hover {
         margin: auto;
     }
 
-}
+
 
 
 
@@ -116,7 +112,7 @@ li a:hover {
 
 .img1_rules{
     margin: 0% 10% 0% 10%; 
-    /*padding: */
+    
 }
 .text1_rules{
     margin: auto;
@@ -126,7 +122,7 @@ li a:hover {
 }
 
 p{
-    /*font-family: 'Calibri';*/
+    
     font-size: 30px;
     text-align: left;
     color: white;
@@ -135,7 +131,7 @@ p{
 /* About */ 
 
 .info  {
-    /*font-family: 'Calibri';*/
+    
     font-size: 30px;
     text-align: left;
     color: white;
@@ -152,12 +148,7 @@ p{
     margin: 1% 5% 5% 10%; 
 }
 
-/* Links */ 
-/*.links{
-    margin: 0% 0% -10% 0%;
-    display: center;
-    background-color: black;
-}*/
+
 footer{
     background-color: white;
     margin: 0% 0% -10% 0%;
