@@ -50,36 +50,57 @@ li a:hover {
     background-color: #111;
 }
 
+@media screen and (max-width: 600px){
 
+    /*navbar*/
+    
+    ul{
+        position: relative;
+    }
+    li {
+        float: none;
+        
+    }
+
+    li.butleft {
+        float: none;
+        display: block;
+        
+    }
+
+    li a{
+        float: none;
+        display: block;
+        
+    }
+
+    
+   
+
+   /* Screens */
+
+   .all_screens{                    
+       flex-direction: column;
+       margin: auto;
+   }
+   .all_screens .photo img{
+       width: 100%;
+   }
+
+   /* About */ 
+   .about{
+       flex-direction: column;
+       margin: auto;
+   }
+
+   /* Rules */ 
+   .all_rules, .a2ll_rules{                    
+       flex-direction: column;
+       margin: auto;
+   }
+
+}
      
-
-    /* Screens */
-
-    .all_screens{                    
-        flex-direction: column;
-        margin: auto;
-        background: #111;
-    }
-    .all_screens .photo img{
-        width: 100%;
-    }
-
-    /* About */ 
-    .about{
-       
-        flex-direction: column;
-        margin: auto;
-    }
-
-    /* Rules */ 
-    .all_rules, .a2ll_rules{                    
-        flex-direction: column;
-        margin: auto;
-    }
-
-
-
-
 
  /* Screens */
  
@@ -88,9 +109,11 @@ li a:hover {
     margin: 30px auto;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
 }
 
 .all_screens .photo{
+    
     margin: auto; 
 }
 
@@ -98,7 +121,7 @@ li a:hover {
 
 
 /* Rules */ 
- 
+
 .all_rules{
     overflow: hidden;
     display: flex;
@@ -110,15 +133,8 @@ li a:hover {
     display: center;
 }
 
-.img1_rules{
+._rules{
     margin: 0% 10% 0% 10%; 
-    
-}
-.text1_rules{
-    margin: auto;
-    display: center;
-    
-
 }
 
 p{
@@ -127,6 +143,8 @@ p{
     text-align: left;
     color: white;
 }
+ 
+
 
 /* About */ 
 
@@ -136,6 +154,7 @@ p{
     text-align: left;
     color: white;
     text-decoration: none;
+   
 }
 .about{
     width: 100%;
