@@ -272,18 +272,12 @@ function calculator(number=0) {
     var ob = {
         sum: function () {
             for (var i = 0; i < arguments.length; i++) {
-                if (arguments[i] === 0) {
-                    throw new Error("division by 0");
-                }
                 number += arguments[i];
             }
             return number;
         },
         dif: function () {
             for (var i = 0; i < arguments.length; i++) {
-                if (arguments[i] === 0) {
-                    throw new Error("division by 0");
-                }
                 number -= arguments[i];
             }
             return number;
@@ -299,9 +293,6 @@ function calculator(number=0) {
         },
         mul: function () {
             for (var i = 0; i < arguments.length; i++) {
-                if (arguments[i] === 0) {
-                    throw new Error("division by 0");
-                }
                 number *= arguments[i];
             }
             return number;
